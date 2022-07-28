@@ -48,11 +48,14 @@ main {
   color: #FFFFFF;
   height: 85vh;
   padding-top: 50px;
+  background-image: url('./assets/reactjs-icon 2.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 main h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   margin: 0px auto 40px 50px;
   letter-spacing: -0.05em;
 }
@@ -66,4 +69,9 @@ main ul li {
   font-weight: 400;
   line-height: 19px;
   margin-bottom: 20px;
+}
+
+main ul li::marker{
+  color:#61DAFB;
+  font-size: 21px;
 }
